@@ -1,4 +1,4 @@
 from flask import Blueprint,render_template,Request,redirect,flash
 
 #create blueprint
-bp = Blueprint("auth", __name__, url_prefix="/auth")
+auth = Blueprint("auth", __name__, url_prefix="/auth")
